@@ -11,6 +11,14 @@ int main()
     scanf("%d",&matrix[i][j]);
   }
  
+printf("\nHere is your desired matrix"\n);
+
+for(i=0;i<3;i++)
+  for(j=0;j<3;j++)
+  {
+   printf("%d\t", matrix[i][j]);
+  }
+  
   while(i==j)
   {
     sum=sum+matrix[i][j];
